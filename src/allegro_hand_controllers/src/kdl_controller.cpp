@@ -7,7 +7,7 @@
 allegroKDL::allegroKDL(std::vector<double> g_vec, double control_rate) {
   // load urdf file
   _urdf_file = ros::package::getPath("ll4ma_robots_description");
-  _urdf_file.append("/urdf/allegro_right/allegro_kdl.urdf");
+  _urdf_file.append("/urdf/allegro_right/allegro_kdl_xela.urdf");
 
   _ee_names = {"index_tip", "middle_tip", "ring_tip", "thumb_tip"};
   _base_names = {"palm_link", "palm_link", "palm_link", "palm_link"};
