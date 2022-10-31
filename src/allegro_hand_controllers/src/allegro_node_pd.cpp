@@ -31,8 +31,8 @@ double max_tau_des = 0.65;
 double loop_rate = 300.0;
 
 // Initialiing the gravity vector
-// std::vector<double> g_vec(3);
-std::vector<double> g_vec = {-9.8, 0, 0};
+std::vector<double> g_vec(3);
+// std::vector<double> g_vec = {-9.8, 0, 0};
 
 // Rosparam names
 // K_p values
